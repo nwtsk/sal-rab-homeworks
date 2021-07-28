@@ -51,9 +51,7 @@ function addInCartSumChange(sum, delta) {
     newSum = oldSum + difference;
     // создайте переменную newSumText и присвойте ей результат склеивания переменной newSum и текста ' ₽'
     let newSumText;
-    newSumText = (typeof(newSum) + ' ₽'); 
     // замените склеивание, используемое в newSum Text на шаблонную строку
-    newSumText = typeof(`${newSum} ₽`);
     // Конец решения задания №1.3.
 
     return newSumText;
